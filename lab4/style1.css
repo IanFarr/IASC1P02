@@ -1,0 +1,27 @@
+body {
+	background-color: blue;
+}
+
+.box {
+	border-style: solid;
+	margin-top: 150px;
+	margin-left: 150px;
+	margin-right: 50px;
+}
+
+p {
+	margin-left: 15px;
+	margin-right: 15px;
+	color: magenta;
+	border-style: dashed;
+	border-color: green;
+	padding: 5px;
+}
+
+.pic {
+	border-style: dashed;
+	border-color: yellow;
+	padding: 20px;
+	width: 250px;
+	height: 400px;
+}
