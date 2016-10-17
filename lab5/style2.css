@@ -1,0 +1,54 @@
+body {
+	background-color: green;
+	margin: 0; 
+}
+
+#wrapper {
+	max-height: 2000px;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: red;
+	font-size: 30px;
+	text-align: center;
+	min-height: 100px;
+	margin: 0;
+}
+
+#nav1 {
+	background-color: pink;
+	font-size: 22px;
+	width: 300px;
+	float: left;
+	margin: 0;
+	min-height: 80px;
+	padding-top: 10px;
+}
+
+#nav2 {
+	background-color: orange;
+	font-size: 22px;
+	width: 700px;
+	float: right;
+	margin: 0;
+	min-height: 80px;
+	padding-top: 10px;
+}
+
+#p1 {
+	background-color: blue;
+	min-height: 660px;
+	font-size: 20px;
+	clear: both;
+	margin: 0;
+}
+
+footer {
+	background-color: yellow;
+	min-height: 100px;
+	font-size: 20px;
+	clear: both;
+	margin: 0;
+}
