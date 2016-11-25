@@ -1,0 +1,47 @@
+body {
+	text-align: center;
+}
+
+#wrap {
+	margin: 0 auto;
+	display: inline-block;
+	overflow: hidden;
+}
+
+#main {
+	padding: 0px 90px 20px 90px;
+	border: solid 1px;
+	margin-top: 10em;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
+
+#output {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+}
+
+button {
+	padding: 4px 11px 4px 11px;
+	border: solid 1px #8c8c8c;
+	background-color: #8c8c8c;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	color: #fff;
+	margin-right: 2px;
+}
+
+button:hover {
+	border-color: #000;
+}
+
+#value1 {
+	margin-right: 7px;
+}
+
+#value2 {
+	margin-left: 5px;
+}
