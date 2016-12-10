@@ -2,7 +2,7 @@
 Mobile Styles
 *************************/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
 
 
 #wrapper {
@@ -155,7 +155,7 @@ Background Image
 Small Window Styles
 *************************/
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 768px) {
 html, body {
   height: 100%
   margin: 0;
