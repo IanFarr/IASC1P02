@@ -6,8 +6,9 @@ Mobile Styles
 
 
 #wrapper {
-	margin: 0 auto;
+	margin: 0;
 	display: block;
+	height: 100%;
 }
 
 #mobileTitle {
@@ -54,7 +55,7 @@ Mobile Styles
 #mobileFooter {
 	bottom: 0;
 	width: 100%;
-	position: absolute;
+	position: relative;
 	height: 13.5em;
 	background-color: #333;
 }
