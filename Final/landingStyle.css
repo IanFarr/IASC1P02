@@ -1,0 +1,324 @@
+/*************************
+Mobile Styles
+*************************/
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.0) {
+
+
+#wrapper {
+	margin: 0;
+	display: block;
+	height: 100%;
+}
+
+#mobileTitle {
+	display: block;
+	margin: auto;
+	width: 60%;
+}
+
+.titleDiv {
+	margin-top: 1em;
+	margin-bottom: 3em;
+}
+
+.titleDiv img {
+	opacity: .9;
+}
+
+#buttons {
+	display: block;
+	margin: auto;
+	width: 85%;
+	margin-bottom: 13.5em;
+}
+
+#buttons a {
+	display: block;
+	margin-bottom: 1em;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+
+	border: 2px solid #fff;
+
+	padding: 1em 0 1em 0;
+}
+
+#buttons #last {
+	margin-bottom: 0;
+}
+
+#mobileFooter {
+	bottom: 0;
+	width: 100%;
+	position: relative;
+	height: 13.5em;
+	background-color: #333;
+}
+
+#mobileFooterContent {
+	margin: auto;
+	width: 70%;
+
+	padding-bottom: 1em;
+	border-bottom: 1px solid #5E7C88;
+
+	text-align: center;
+}
+
+#mobileFooter img {
+	height: 51px;
+	width: 51px;
+
+	margin-top: 1.4em;
+	margin-right: .1em;
+}
+
+#last img {
+	margin-right: 0;
+}
+
+#contactButton {
+	margin: 1.4em auto;
+	width: 20%;
+
+	border: 1px solid #5E7C88;
+	text-align: center;
+	padding: .3em 1em .4em 1em;
+}
+
+#contactButton a {
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+	color: #5E7C88;
+}
+
+#copyright {
+	margin: auto;
+	width: 50%;
+	text-align: center;
+}
+
+#copyright p {
+	font-family: 'Lato', sans-serif;
+	color: #5E7C88;
+	font-size: .8em;
+}
+
+
+
+
+
+#footer {
+	display: none;
+}
+
+#title {
+	display: none;
+}
+
+#bg {
+	display: none;
+}
+
+/*************************
+Background Image
+*************************/
+
+#bgMobile {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  z-index: -1;
+}
+
+#bgMobile img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+}
+
+
+/*************************
+Small Window Styles
+*************************/
+
+@media only screen and (min-width: 768px) {
+html, body {
+  height: 100%
+  margin: 0;
+}
+
+#main {
+  margin: 0 auto -50px;
+  display: block;
+  text-align: center;
+}
+
+#title {
+  display: inline-block;
+  text-align: center;
+
+  font-family: 'Lato', sans-serif;
+  font-size: 4em;
+  font-weight: 300;
+  color: #fff;
+  opacity: .8;
+  text-shadow: 0 1px 11px rgba(0, 0, 0, .8);
+  text-transform: uppercase;
+
+  padding-top: 2.4em;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 17px;
+
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s ease;
+}
+
+#buttons a {
+  margin-right: 5px;
+  padding: 7px 35px 7px 35px;
+
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: .8em;
+  color: #fff;
+  text-transform: uppercase;
+
+  background-color: #333;
+  opacity: .8;
+
+  border: 1px solid #333;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s ease;
+}
+
+#buttons a #last {
+  margin-left: 0;
+}
+
+#buttons a:hover {
+  border-color: #fff;
+
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1.8em;
+  text-align: center;
+}
+
+#footer a {
+  padding-right: 17px;
+  padding-left: 15px;
+
+  text-decoration: none;
+  color: #fff;
+  opacity: .8;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: .8em;
+
+  border-right: 1px solid #fff;
+
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s ease;
+}
+
+#footer #first {
+  padding-left: 0;
+  font-size: .75em;
+}
+
+#footer #last {
+  padding-right: 0;
+  border-right: 0px;
+}
+
+#mobileTitle {
+  display: none;
+}
+
+#bgMobile {
+	display: none;
+}
+
+#mobileFooter {
+	display: none;
+}
+
+/*************************
+Background Image
+*************************/
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  z-index: -1;
+}
+
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+}
+
+/*************************
+Large Window Styles
+*************************/
+
+@media only screen and (min-width: 1000px) {
+
+
+
+#title {
+  font-size: 7em;
+
+  padding-top: 1.3em;
+  margin-bottom: 35px;
+}
+
+#buttons a {
+  padding: 8px 45px 8px 45px;
+
+  font-size: 1.1em;
+}
+
+#footer a {
+  font-size: .9em;
+}

@@ -1,426 +1,640 @@
-/*************************
-Mobile Styles
-*************************/
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.0) {
 
-@media only screen and (max-width: 600px) {
-
-html, body {
-  height: 100%
-  margin: 0;
+#wrapper {
+	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
-#main {
-  margin: 0 auto -50px;
-  display: block;
-  text-align: center;
+#mobileHeader {
+	height: 10em;
+	width: 100%;
+	background-image: url("img/mobileRealEstateHead.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
-#title {
-  display: inline-block;
-  text-align: center;
-
-  font-family: 'Lato', sans-serif;
-  font-size: 2.3em;
-  font-weight: 300;
-  color: #fff;
-  opacity: .8;
-  text-shadow: 0 1px 11px rgba(0, 0, 0, .8);
-  text-transform: uppercase;
-
-  padding-top: 1.8em;
-  border-bottom: 1px solid #fff;
-  margin-bottom: 20px;
-
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition: .5s ease;
+#mobileHeader {
+	margin: 0 auto;
+	width: 100%;
 }
 
-#buttons {
-  margin: 100px 17px 20px 17px;
+#mobileHeader #homeButton {
+	display: none;
 }
 
-#buttons a {
-  display: block;
-  margin-bottom: 6px;
-  padding: 14px 0 14px 0;
+#navButtons {
+	text-align: center;
+	background-color: #fff;
+	opacity: .8;
 
-  text-decoration: none;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-size: .9em;
-  color: #fff;
-  text-transform: uppercase;
-
-  background-color: #333;
-  opacity: .8;
-
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition: .5s ease;
+	padding-top: .4em;
+	padding-bottom: .3em;
 }
 
-#buttons #last {
-  border-bottom: 0;
+#navButtons a {
+	text-decoration: none;
+	color: #5E7C88;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 1.3em;
+	opacity: 1;
+
+	padding-right: .4em;
+	padding-left: .4em;
 }
 
-
-#footer {
-  display: none;
+#heading {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #333;
 }
 
+#heading p {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.5em;
+	color: #fff;
 
-/*************************
-Background Image
-*************************/
+	margin-top: 0;
+	margin-bottom: .4em;
 
-#bg {
-  display: none;
-}
-
-.mPic {
-  width: 600px;
-  height: 450px;
-  background-image: 
-}
-
-#bgmobile {
-  position: fixed; 
-  top: -50%; 
-  left: -10%; 
-  width: 200%; 
-  height: 200%;
-  z-index: -1;
-}
-
-#bgmobile img {
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
-  margin: auto; 
-  min-width: 50%;
-  min-height: 50%;
-}
-
-}
-
-
-
-/*************************
-Tablet Styles
-*************************/
-
-@media only screen and (min-width: 601px), only screen and (min-width: 1000px) and (orientation: landscape) {
-
-html, body {
-  height: 100%
-  margin: 0;
-}
-
-#main {
-  margin: 0 auto -50px;
-  display: block;
-  text-align: center;
+	padding: .35em 0 .35em 0;
 }
 
 #title {
-  display: inline-block;
-  text-align: center;
-
-  font-family: 'Lato', sans-serif;
-  font-size: 4em;
-  font-weight: 300;
-  color: #fff;
-  opacity: .8;
-  text-shadow: 0 1px 11px rgba(0, 0, 0, .8);
-  text-transform: uppercase;
-
-  padding-top: 2.4em;
-  border-bottom: 1px solid #fff;
-  margin-bottom: 17px;
-
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition: .5s ease;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 3em;
+	color: #5E7C88;
+	text-align: center;
+	margin-bottom: 0.2em;
+	margin-top: 1em;
 }
 
-#buttons a {
-  margin-right: 5px;
-  padding: 7px 35px 7px 35px;
-
-  text-decoration: none;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-size: .8em;
-  color: #fff;
-  text-transform: uppercase;
-
-  background-color: #333;
-  opacity: .8;
-
-  border: 1px solid #333;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition: .5s ease;
+#subTitle {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 1.5em;
+	color: #5E7C88;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 2em;
 }
 
-#buttons a #last {
-  margin-left: 0;
+#mobilePhotography {
+	margin: auto;
+	width: 100%;
 }
 
-#buttons a:hover {
-  border-color: #fff;
+#mobilePhotography img {
+	max-width: 100%;
+	max-height: 100%;
+}
 
+#aerial {
+	margin: auto;
+	width: 100%;
+}
+
+#mobileAerial img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#contact {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+#video {
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
+
+#video iframe {
+	width: 24.8976em;
+	height: 13.8814em;
+}
+
+#contact p {
+	margin-top: 2em;
+	margin-bottom: 1.2em;
+}
+
+#contact a {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #5E7C88;
+
+	padding: .4em 2em .5em 2em;
+	border: solid 2px #5E7C88;
+}
+
+#contactUs {
+	margin: 0 auto;
+	width: 90%;
+	text-align: center;
+
+	font-family: 'Lato', sans-serif;
+}
+
+#contactInformation {
+	margin-top: 5em;
+}
+
+#contactUs #reachUs {
+	text-align: left;
+	font-weight: 400;
+	font-size: 1.4em;
+	color: #5E7C88;
+	margin-bottom: .6em;
+	padding-bottom: .2em;
+	border-bottom: 1px solid #5E7C88;
+}
+
+#contactUs #contactInfo {
+	text-align: left;
+	font-weight: 300;
+	color: #5E7C88;
+	font-size: 1.4em;
+	margin: .2em 0 .2em 0;
 }
 
 #footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 1.8em;
-  text-align: center;
+	bottom: 0;
+	width: 100%;
+	position: relative;
+	height: 13.5em;
+	background-color: #333;
+	margin-top: 4em;
 }
 
-#footer a {
-  padding-right: 17px;
-  padding-left: 15px;
+#footerContent {
+	margin: auto;
+	width: 70%;
 
-  text-decoration: none;
-  color: #fff;
-  opacity: .8;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-size: .8em;
+	padding-bottom: 1em;
+	border-bottom: 1px solid #5E7C88;
 
-  border-right: 1px solid #fff;
-
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition: .5s ease;
+	text-align: center;
 }
 
-#footer #first {
-  padding-left: 0;
+#footer img {
+	height: 51px;
+	width: 51px;
+
+	margin-top: 1.4em;
+	margin-right: .1em;
 }
 
-#footer #last {
-  padding-right: 0;
-  border-right: 0px;
+#last img {
+	margin-right: 0;
 }
 
-#bgmobile {
-  display: none;
+#contactButton {
+	margin: 1.4em auto;
+	width: 20%;
+
+	border: 1px solid #5E7C88;
+	text-align: center;
+	padding: .3em 0 .4em 0;
 }
+
+#contactButton a {
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+	color: #5E7C88;
+}
+
+#copyright {
+	margin: auto;
+	width: 50%;
+	text-align: center;
+}
+
+#copyright p {
+	font-family: 'Lato', sans-serif;
+	color: #5E7C88;
+	font-size: .8em;
+}
+
+#header {
+	display: none;
+}
+
+#photography {
+	display: none;
+}
+
+#aerial {
+	display: none;
+}
+
+}
+
 
 /*************************
-Background Image
+Small Window Styles
 *************************/
 
-#bg {
-  position: fixed; 
-  top: -50%; 
-  left: -50%; 
-  width: 200%; 
-  height: 200%;
-  z-index: -1;
+@media only screen and (min-width: 768px) {
+
+#wrapper {
+	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
-#bg img {
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
-  margin: auto; 
-  min-width: 50%;
-  min-height: 50%;
+#header {
+	height: 40em;
+	width: 100%;
+	background-image: url("img/realEstateHead.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
+#navButtons {
+	text-align: center;
+	background-color: #fff;
+	opacity: .8;
+
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
+#navButtons a {
+	text-decoration: none;
+	color: #5E7C88;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 1.2em;
+	opacity: 1;
 
-/*************************
-Main Styles
-*************************/
-
-@media only screen and (min-width: 1001px) {
-
-html, body {
-  height: 100%
-  margin: 0;
+	padding-right: 1.5em;
+	padding-left: 1.5em;
 }
 
-#main {
-  margin: 0 auto -50px;
-  display: block;
-  text-align: center;
+#navButtons a:hover {
+	color: #000;
+}
+
+#heading {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #5E7C88;
+	opacity: .5;
+}
+
+#heading p {
+	font-family: 'Lato', sans-serif;
+	font-size: 2.5em;
+	color: #fff;
+
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-bottom: 2.1em;
+
+	padding: .35em 0 .35em 0;
+}
+
+#photography {
+	margin: auto;
+	width: 80%;
 }
 
 #title {
-  display: inline-block;
-  text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 5em;
+	color: #5E7C88;
+	text-align: center;
+	margin-bottom: 0.2em;
 
-  font-family: 'Lato', sans-serif;
-  font-size: 7em;
-  font-weight: 300;
-  color: #fff;
-  opacity: .8;
-  text-shadow: 0 1px 11px rgba(0, 0, 0, .8);
-  text-transform: uppercase;
-
-  padding-top: 1.3em;
-  border-bottom: 1px solid #fff;
-  margin-bottom: 35px;
-
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition: .5s ease;
+	padding-top: 1em;
+	border-top: solid 1px #5E7C88;
 }
 
-#buttons a {
-  margin-right: 5px;
-  padding: 8px 45px 8px 45px;
-
-  text-decoration: none;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-size: 1.1em;
-  color: #fff;
-  text-transform: uppercase;
-
-  background-color: #333;
-  opacity: .8;
-
-  border: 1px solid #333;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition: .5s ease;
+#wrapper #title {
+	margin-top: 2em;
 }
 
-#buttons a #last {
-  margin-left: 0;
+#photography #title {
+	border-top: none;
+	margin-top: 1em;
+	padding-top: 0;
 }
 
-#buttons a:hover {
-  border-color: #fff;
+#contactUs #title {
+	border-top: none;
+	margin-top: 1em;
+	padding-top: 0;
+}
 
+#subTitle {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 2.5em;
+	color: #5E7C88;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 2em;
+}
+
+#photography img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#photography #picture2 {
+	width: 59.65%;
+	height: auto;
+	margin: .6em 0 .6em 0;
+}
+
+#photography #picture3 {
+	width: 39.664%;
+	float: right;
+	margin: .6em 0 0 0;
+}
+
+#video {
+	margin: auto;
+	width: 80%;
+	text-align: center;
+}
+
+#video iframe {
+	width: 33.6em;
+	height: 19.04em;
+}
+
+#aerial {
+	margin: auto;
+	width: 80%;
+}
+
+#aerial img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#aerial #picture2 {
+	width: 39.48%;
+	height: auto;
+	margin: .6em 0 .6em 0;
+}
+
+#aerial #picture3 {
+	width: 59.8%;
+	float: right;
+	margin: .6em 0 0 0;
+}
+
+#contactUs {
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+
+	font-family: 'Lato', sans-serif;
+}
+
+#contactInformation {
+	width: 45%;
+	margin-top: 5em;
+}
+
+#contactUs #reachUs {
+	text-align: left;
+	font-weight: 400;
+	font-size: 1.4em;
+	color: #5E7C88;
+	margin-bottom: .6em;
+	padding-bottom: .2em;
+	border-bottom: 1px solid #5E7C88;
+}
+
+#contactUs #contactInfo {
+	text-align: left;
+	font-weight: 300;
+	color: #5E7C88;
+	font-size: 1.4em;
+	margin: .2em 0 .2em 0;
+}
+
+
+
+
+
+
+
+
+#contact {
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+}
+
+#contact p {
+	margin-top: 2em;
+}
+
+#contact a {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	text-decoration: none;
+	font-size: 2em;
+	color: #5E7C88;
+
+	padding: .4em 2em .5em 2em;
+	border: solid 2px #5E7C88;
+}
+
+#contact a:hover {
+	color: #000;
+	border-color: #000;
 }
 
 #footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 1.8em;
-  text-align: center;
+	margin-top: 8em;
+	background-color: #fff;
+	color: #000;
+	border-color: #000;
+	bottom: 0;
+	width: 100%;
+	position: relative;
+	height: 13.5em;
 }
 
-#footer a {
-  padding-right: 17px;
-  padding-left: 15px;
+#footerContent {
+	margin: auto;
+	width: 70%;
 
-  text-decoration: none;
-  color: #fff;
-  opacity: .8;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-size: .9em;
+	padding-bottom: 1em;
+	border-top: 1px solid #5E7C88;
 
-  border-right: 1px solid #fff;
-
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition: .5s ease;
+	text-align: center;
 }
 
-#footer #first {
-  padding-left: 0;
+#footer img {
+	height: 51px;
+	width: 51px;
+
+	margin-top: 1.4em;
+	margin-right: .1em;
 }
 
-#footer #last {
-  padding-right: 0;
-  border-right: 0px;
+#last img {
+	margin-right: 0;
 }
 
-#bgmobile {
-  display: none;
+#contactButton {
+	margin: 1.4em auto;
+	width: 10%;
+
+	border: 1px solid #5E7C88;
+	text-align: center;
+	padding: .3em 0 .4em 0;
 }
 
+#contactButton a {
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+	color: #5E7C88;
+}
+
+#copyright {
+	margin: auto;
+	width: 50%;
+	text-align: center;
+}
+
+#copyright p {
+	font-family: 'Lato', sans-serif;
+	color: #5E7C88;
+	font-size: .8em;
+}
+
+#mobileHeader {
+	display: none;
+}
+
+#mobilePhotography {
+	display: none;
+}
+
+#mobileAerial {
+	display: none;
+}
+
+}
 
 
 
 /*************************
-Background Image
+Medium Window Styles
 *************************/
 
-#bg {
-  position: fixed; 
-  top: -50%; 
-  left: -50%; 
-  width: 200%; 
-  height: 200%;
-  z-index: -1;
+@media only screen and (min-width: 1000px) {
+
+#navButtons a {
+	padding-right: 3em;
+	padding-left: 3em;
 }
 
-#bg img {
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
-  margin: auto; 
-  min-width: 50%;
-  min-height: 50%;
+#video iframe {
+	width: 48em;
+	height: 27.2em;
 }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*************************
-Media Queries
+Large Window Styles
 *************************/
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 1600px) {
+
+#photography {
+	width: 60%;
+}
+
+#video {
+	width: 60%;
+}
+
+#video iframe {
+	width: 60em;
+	height: 34em;
+}
+
+#aerial {
+	width: 60%;
+}
+
+#contactUs {
+	width: 60%;
+}
+
+#contact {
+	width: 60%;
+}
+
+#contactInformation {
+	width: 25%;
+	margin-top: 5em;
+}
+
+#contactButton {
+	width: 5%;
+}
 
 }
 
-@media only screen and (min-width: 768px), only screen and (min-width: 700px) and (orientation: landscape) {
-  
-}
 
-@media only screen and (min-width: 1140px) {
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
