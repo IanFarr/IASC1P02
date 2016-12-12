@@ -136,7 +136,7 @@ Small Window Styles
 
 @media only screen and (min-width: 768px) {
 html, body {
-  height: 100%
+  height: 100%;
   margin: 0;
 }
 
@@ -282,8 +282,6 @@ Large Window Styles
 
 @media only screen and (min-width: 1000px) {
 
-
-
 #title {
   font-size: 7em;
 
@@ -299,4 +297,6 @@ Large Window Styles
 
 #footer a {
   font-size: .9em;
+}
+
 }
