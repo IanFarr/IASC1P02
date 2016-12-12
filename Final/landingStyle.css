@@ -109,10 +109,6 @@ Mobile Styles
 	font-size: .8em;
 }
 
-
-
-
-
 #footer {
 	display: none;
 }
@@ -121,7 +117,7 @@ Mobile Styles
 	display: none;
 }
 
-#bg {
+body #bg {
 	display: none;
 }
 
@@ -129,7 +125,7 @@ Mobile Styles
 Background Image
 *************************/
 
-#bgMobile {
+body #bgMobile {
   position: fixed; 
   top: -50%; 
   left: -50%; 
