@@ -54,7 +54,7 @@ html {
 	padding: 1em 0 1em 0;
 }
 
-#buttons #last {
+#buttons .last {
 	margin-bottom: 0;
 }
 
@@ -84,7 +84,7 @@ html {
 	margin-right: .1em;
 }
 
-#last img {
+.last img {
 	margin-right: 0;
 }
 
@@ -191,7 +191,7 @@ html, body {
   transition: .5s ease;
 }
 
-#buttons a #last {
+#buttons a .last {
   margin-left: 0;
 }
 
@@ -228,12 +228,12 @@ html, body {
   transition: .5s ease;
 }
 
-#footer #first {
+#footer .first {
   padding-left: 0;
   font-size: .75em;
 }
 
-#footer #last {
+#footer .last {
   padding-right: 0;
   border-right: 0px;
 }

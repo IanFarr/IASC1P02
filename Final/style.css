@@ -24,11 +24,11 @@ Mobile Styles
 	width: 100%;
 }
 
-#mobileHeader #homeButton {
+#mobileHeader .homeButton {
 	display: none;
 }
 
-#navButtons {
+.navButtons {
 	text-align: center;
 	background-color: #fff;
 	opacity: .8;
@@ -37,7 +37,7 @@ Mobile Styles
 	padding-bottom: .3em;
 }
 
-#navButtons a {
+.navButtons a {
 	text-decoration: none;
 	color: #5E7C88;
 	font-family: 'Lato', sans-serif;
@@ -68,7 +68,7 @@ Mobile Styles
 	padding: .35em 0 .35em 0;
 }
 
-#title {
+.title {
 	font-family: 'Lato', sans-serif;
 	font-weight: 100;
 	font-size: 3em;
@@ -78,7 +78,7 @@ Mobile Styles
 	margin-top: 1em;
 }
 
-#subTitle {
+.subTitle {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	font-size: 1.5em;
@@ -198,7 +198,7 @@ Mobile Styles
 	margin-right: .1em;
 }
 
-#last img {
+.last img {
 	margin-right: 0;
 }
 
@@ -265,7 +265,7 @@ Small Window Styles
 	background-size: cover;
 }
 
-#navButtons {
+.navButtons {
 	text-align: center;
 	background-color: #fff;
 	opacity: .8;
@@ -274,7 +274,7 @@ Small Window Styles
 	padding-bottom: 1em;
 }
 
-#navButtons a {
+.navButtons a {
 	text-decoration: none;
 	color: #5E7C88;
 	font-family: 'Lato', sans-serif;
@@ -286,7 +286,7 @@ Small Window Styles
 	padding-left: 1.5em;
 }
 
-#navButtons a:hover {
+.navButtons a:hover {
 	color: #000;
 }
 
@@ -316,7 +316,7 @@ Small Window Styles
 	width: 80%;
 }
 
-#title {
+.title {
 	font-family: 'Lato', sans-serif;
 	font-weight: 100;
 	font-size: 5em;
@@ -328,23 +328,23 @@ Small Window Styles
 	border-top: solid 1px #5E7C88;
 }
 
-#wrapper #title {
+#wrapper .title {
 	margin-top: 2em;
 }
 
-#photography #title {
+#photography .title {
 	border-top: none;
 	margin-top: 1em;
 	padding-top: 0;
 }
 
-#contactUs #title {
+#contactUs .title {
 	border-top: none;
 	margin-top: 1em;
 	padding-top: 0;
 }
 
-#subTitle {
+.subTitle {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	font-size: 2.5em;
@@ -359,13 +359,13 @@ Small Window Styles
 	max-height: 100%;
 }
 
-#photography #picture2 {
+#photography .picture2 {
 	width: 59.65%;
 	height: auto;
 	margin: .6em 0 .6em 0;
 }
 
-#photography #picture3 {
+#photography .picture3 {
 	width: 39.664%;
 	float: right;
 	margin: .6em 0 0 0;
@@ -392,13 +392,13 @@ Small Window Styles
 	max-height: 100%;
 }
 
-#aerial #picture2 {
+#aerial .picture2 {
 	width: 39.48%;
 	height: auto;
 	margin: .6em 0 .6em 0;
 }
 
-#aerial #picture3 {
+#aerial .picture3 {
 	width: 59.8%;
 	float: right;
 	margin: .6em 0 0 0;
@@ -427,7 +427,7 @@ Small Window Styles
 	border-bottom: 1px solid #5E7C88;
 }
 
-#contactUs #contactInfo {
+#contactUs .contactInfo {
 	text-align: left;
 	font-weight: 300;
 	color: #5E7C88;
@@ -490,7 +490,7 @@ Small Window Styles
 	margin-right: .1em;
 }
 
-#last img {
+.last img {
 	margin-right: 0;
 }
 
@@ -543,7 +543,7 @@ Medium Window Styles
 
 @media only screen and (min-width: 1000px) {
 
-#navButtons a {
+.navButtons a {
 	padding-right: 3em;
 	padding-left: 3em;
 }
