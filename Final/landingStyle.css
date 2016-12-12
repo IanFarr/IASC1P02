@@ -4,6 +4,12 @@ Mobile Styles
 
 @media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.0) {
 
+html {
+  background-image: url("img/mobileLanding.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 #wrapper {
 	margin: 0;
@@ -117,32 +123,8 @@ Mobile Styles
 	display: none;
 }
 
-body #bg {
+#bg {
 	display: none;
-}
-
-/*************************
-Background Image
-*************************/
-
-body #bgMobile {
-  position: fixed; 
-  top: -50%; 
-  left: -50%; 
-  width: 200%; 
-  height: 200%;
-  z-index: -1;
-}
-
-#bgMobile img {
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
-  margin: auto; 
-  min-width: 50%;
-  min-height: 50%;
 }
 
 }
